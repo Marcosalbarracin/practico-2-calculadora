@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(64, 64, 64);
+}
+.calculadora {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    max-width: 100%;
+    background-color: rgb(39, 39, 39);
+    border-radius: 5%;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 15px;
+    
+}
+.btn {
+    background-color: antiquewhite;
+    line-height: 200px;
+    text-align: center;
+    font-size: 50px;
+    
+}
+.operacion {
+    line-height: 200px;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(167, 167, 167);
+}
+.btn:hover {
+    background-color: rgb(167, 166, 216);
+
+}
+.operacion:hover {
+    background-color: rgb(167, 166, 216); 
+}
+#pantalla {
+    background-color: rgb(11, 1, 20);
+    color: white;
+    grid-column: 1 / 5;
+    height: 200px;
+    font-size: 100px;
+    text-align: right;
+    align-items: center;
+    padding: 25px;
+    font-family: monospace;
+    display: grid; 
+}
+#igual {
+    grid-column: 2 / 4;
+    background-color: rgb(167, 167, 167);
+    line-height: 200px;
+    text-align: center;
+    font-size: 50px;
+}
+#igual:hover {
+    background-color: rgb(167, 166, 216);
+}
+
+#AC {
+    background-color: rgb(235, 235, 235);
+    line-height: 200px;
+    text-align: center;
+    font-size: 50px; 
+} 
+
+#AC:hover {
+    background-color: rgb(167, 166, 216);
+}
+
+#punto {
+    background-color: rgb(182, 182, 182);
+    line-height: 200px;
+    text-align: center;
+    font-size: 50px;
+
+}
+#punto:hover {
+    background-color: rgb(167, 166, 216);
+}
+
+#cero {
+    grid-column: 2 / 4;
+    background-color: antiquewhite;
+    line-height: 200px;
+    text-align: center;
+    font-size: 50px;
+}
+#cero:hover {
+    background-color: rgb(167, 166, 216);
+}
+ 
+#elm {
+    background-color: rgb(182, 182, 182);
+    line-height: 200px;
+    text-align: center;
+    font-size: 50px;
+}
+#elm:hover {
+    background-color: rgb(167, 166, 216);
+}
+
+#resultado {
+    background-color: rgb(11, 1, 20);
+    color: white;
+    grid-column: 1 / 5;
+    height: 100px;
+    font-size: 75px;
+    text-align: right;
+    align-items: center;
+    font-family: monospace;
+    display: grid; 
+
+}
+ 
